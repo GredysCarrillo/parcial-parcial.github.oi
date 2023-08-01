@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f44336;
+  color: #ffffff;
+  padding: 1 px 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  background-image: url("https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png");
+  background-size: cover;
+  background-position: center;
+  color: #e6e4e4;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.pokemon-types {
+  padding: 60px 0;
+}
+
+.pokemon-types h2 {
+  text-align: center;
+}
+
+.types-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-type {
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-type img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
